@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Montserrat:wght@200;500&family=Poppins:wght@300;400;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Montserrat:wght@200;500&family=Poppins:wght@300;400;600;700&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.temp{
+    background: url("bg2.png") no-repeat center;
+    /* background-color: #a2a9fc; */
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    margin: 5px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.804);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 8px 11px 1px rgba(56, 56, 56, 0.736);
+    /* transform: translate(50%,50%); */
+   
+}
+
+#title{
+    align-items: center;
+}
+
+.tfo{
+    text-align: left;
+    color: #43027c;
+}
+
+#btn{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #FF725E;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+#btn:hover {
+	background-color: #FFDBD6;
+    color: rgb(4, 4, 4);
+}
+
+#ip,#op{
+    text-align: justify;
+}
+
+#inp,#out{
+    border-radius: 1px;
+    margin: 0px 5px;
+    padding: 10px;
+    font-size: medium;
+}
+
+#from,#to{
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+
